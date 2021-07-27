@@ -1,0 +1,18 @@
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.body-content {
+  flex-grow: 1;
+}
+
+body {
+  background: #f8f8f8;
+  color: #000;
+}
+
+a {
+  color: maroon;
+}

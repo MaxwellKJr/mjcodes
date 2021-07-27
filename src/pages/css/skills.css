@@ -1,0 +1,32 @@
+#skills .showcase-about {
+  padding-bottom: 10vh !important;
+}
+
+.card-dark {
+  border: 1px solid #ff006675;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 1rem;
+  background: url("../../img/js.png") no-repeat center/cover;
+}
+
+.card-dark .skill-icon {
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+
+.card-dark .skill {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 380px) {
+  .card-dark .skill-icon {
+    font-size: 1.3rem;
+    margin: 1rem 0.5rem;
+  }
+  .card-dark .skill {
+    font-size: 1rem;
+  }
+}

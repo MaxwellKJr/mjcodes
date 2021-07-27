@@ -1,0 +1,47 @@
+.showcase-about .details {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.image {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.image img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+@media (max-width: 995px) {
+  #about,
+  #skills,
+  #contact {
+    height: auto !important;
+    padding-bottom: 5rem !important;
+  }
+
+  .showcase-about .details {
+    height: auto;
+  }
+
+  .image img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 750px) {
+  .showcase-about .details {
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .showcase-about .wrapper {
+    width: 90% !important;
+  }
+}
