@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import BioPic from "../img/showcase.jpg"
 import Layout from "../layouts/index"
 import Seo from "../components/seo"
 import "./css/about.css"
