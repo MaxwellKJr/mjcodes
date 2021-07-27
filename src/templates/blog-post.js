@@ -15,6 +15,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
+        image={post.frontmatter.featuredImage.publicURL}
       />
       <div className="post-wrapper">
         <article>

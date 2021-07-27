@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import BioPic from "../img/showcase.jpg"
 import Layout from "../layouts/index"
 import Seo from "../components/seo"
@@ -17,9 +18,10 @@ const About = ({ data, location }) => {
               <div className="col s12 m12 l6">
                 <div className="details">
                   <div className="image">
-                    <img
-                      src={BioPic}
-                      className="bio"
+                    <StaticImage
+                      src="../img/showcase.jpg"
+                      width={600}
+                      className="img"
                       alt="Maxwell Kapezi, Jr."
                       title="Maxwell Kapezi, Jr."
                     />
@@ -50,15 +52,21 @@ const About = ({ data, location }) => {
                     </a>{" "}
                     frameworks. I am also a 3rd year Bachelor of Education (BEd)
                     in Computer Science student at the{" "}
-                    <a href="https://unima.ac.mw" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://unima.ac.mw"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Univeristy of Malawi
-                    </a>{"."}
+                    </a>
+                    {"."}
                   </p>
                   <p>
                     I started learning how to code in 2017 because I wanted to
                     make my own video game (yes I wanted to make video games)
                     but that dream died quick. For the whole story read my post{" "}
-                    <Link to="/hello-world">Hello World</Link>{"."}
+                    <Link to="/hello-world">Hello World</Link>
+                    {"."}
                   </p>
                   <p>
                     Apart from coding I also enjoy writing short stories, poetry

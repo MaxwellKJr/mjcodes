@@ -9,11 +9,15 @@
 
 .image {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 5rem;
 }
 
 .image img {
   width: 80%;
+  margin: auto;
   border-radius: 50%;
 }
 
