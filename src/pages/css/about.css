@@ -1,7 +1,6 @@
 .showcase-about .details {
   display: flex;
   flex-direction: column;
-  height: 400px;
   justify-content: center;
   align-items: center;
   height: auto;

@@ -21,6 +21,7 @@ const About = ({ data, location }) => {
                       src="../img/showcase.jpg"
                       width={600}
                       className="img"
+                      placeholder="blurred"
                       alt="Maxwell Kapezi, Jr."
                       title="Maxwell Kapezi, Jr."
                     />
