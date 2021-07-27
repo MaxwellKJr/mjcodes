@@ -49,17 +49,20 @@ const About = ({ data, location }) => {
                       Django
                     </a>{" "}
                     frameworks. I am also a 3rd year Bachelor of Education (BEd)
-                    in Computer Science student.
-                  </p>
-                  <p>
-                    Apart from coding I also enjoy writing short stories, poetry
-                    &amp; playing video games. I mean why not?
+                    in Computer Science student at the{" "}
+                    <a href="https://unima.ac.mw" target="_blank" rel="noopener noreferrer">
+                      Univeristy of Malawi
+                    </a>{"."}
                   </p>
                   <p>
                     I started learning how to code in 2017 because I wanted to
                     make my own video game (yes I wanted to make video games)
                     but that dream died quick. For the whole story read my post{" "}
-                    <Link to="/hello-world">Hello World</Link>
+                    <Link to="/hello-world">Hello World</Link>{"."}
+                  </p>
+                  <p>
+                    Apart from coding I also enjoy writing short stories, poetry
+                    &amp; video games. I mean why not?
                   </p>
                   <Link to="/skills" className="btn-primary">
                     My Skills →

@@ -87,13 +87,13 @@ button {
 
 ::-webkit-scrollbar {
   background: var(--primary-dark) !important;
-  width: 8px !important;
+  width: 14px !important;
   transition: all 400ms ease-in-out;
 }
 
 ::-webkit-scrollbar:hover,
 ::-webkit-scrollbar:focus {
-  width: 10px !important;
+  width: 15px !important;
 }
 
 ::-webkit-scrollbar-thumb {
