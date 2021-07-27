@@ -13,10 +13,11 @@
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
+  padding: 4rem;
 }
 
 .image img {
-  width: 80%;
+  width: 70%;
   margin: auto;
   border-radius: 50%;
 }
