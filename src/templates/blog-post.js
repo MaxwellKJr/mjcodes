@@ -16,7 +16,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
         siteUrl={post.frontmatter.slug}
-        siteThumbnail={post.frontmatter.featuredImage.publicURL}
       />
       <div className="post-wrapper">
         <article>
