@@ -3,9 +3,11 @@ module.exports = {
     title: `MJ Codes`,
     author: {
       name: `Maxwell Kapezi, Jr.`,
-      summary: `is a Malawian😎 programmer and creative writer & college student.`,
+      summary: `is a Malawian😎 programmer, creative writer and college student.`,
     },
     description: `MJ Codes is a platform created by Maxwell Kapezi Jr to showcase his web development journey and share the few things he knows, from web development and things tech related. One line of code at a time.`,
+    siteUrl: `https://mjcodes.netlify.app/`,
+    siteThumbnail: ``,
     social: {
       twitter: `@maxwellKJr`,
     },
