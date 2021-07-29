@@ -1,10 +1,10 @@
 ---
 title: Hello, World
 featuredImage: hello-world.jpg
-date: 2021-07-29T05:54:06.589Z
+date: 2021-07-29T06:10:05.639Z
 description: This is a story of how video games led me to the path of writing
-  code, made me make the right choices, and showed me greatness and beauty of
-  programming.
+  code, made me make the right choices, and showed me the greatness and beauty
+  of programming.
 ---
 *"After the end of World War 2, the world was split into two. East and West. This marked the beginning of era called the Cold War."* - Naked Snake (Voiced by David Hayter) in Metal Gear Solid 3: Snake Eater.
 
