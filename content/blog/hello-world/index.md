@@ -50,4 +50,4 @@ There is a lot more I have left out and before I end this post you should know t
 
 ##### To those who want to get started
 
-This is my story. And we should always remember that everyone has a different story. If you want to learn how to code, just get started. Start now. It can be scary at first but once you get started you will realize that it is far from that. It's just difficult. Difficult yet doable. When you realize those 2 things, thats you will then wish that you had started earlier or sooner.
+This is my story. And we should always remember that everyone has a different story. If you want to learn how to code, just get started. Start now. It can be scary at first but once you get started you will realize that it is far from that. It's just difficult. Difficult yet doable. When you realize those 2 things, you will then wish that you had started earlier or sooner.
