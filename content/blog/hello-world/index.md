@@ -24,7 +24,7 @@ I still wanted to make video games and I was very determined on that. (I was so 
 
 #### Programming For Dummies & C/C++
 
-After enough reading and research of what I was putting myself into, I got hold of the book <a href="https://www.dummies.com/programming/beginning-programming-for-dummies-4th-edition/" target="_blank">*Beginning Programming For Dummies: All-In-One Desk Reference For Dummies*</a> by Wallace Wang and this might sound a little cliche but **it changed my life**.
+After enough reading and research of what I was putting myself into, I got hold of the book <a href="https://www.dummies.com/programming/beginning-programming-for-dummies-4th-edition/" target="_blank">*Beginning Programming For Dummies: All-In-One Desk Reference For Dummies*</a> by Wallace Wang and this might sound a bit cliche but **it changed my life**.
 
 ##### What I learned - In Summary
 
