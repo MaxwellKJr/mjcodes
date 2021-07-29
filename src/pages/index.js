@@ -18,7 +18,9 @@ const BlogIndex = ({ data, location }) => {
               <div className="col s12 m12 l8">
                 <div className="details">
                   <h1>The Struggling Programmer</h1>
-                  <p className="occupations">Web Developer | Writer | Gamer</p>
+                  <p className="occupations">
+                    Web Developer💻 | Writer 📝 | Gamer 🎮
+                  </p>
                   <p>
                     A platform to showcase my web development journey and share
                     the few things I know.
