@@ -19,7 +19,7 @@ const BlogIndex = ({ data, location }) => {
                 <div className="details">
                   <h1>The Struggling Programmer</h1>
                   <p className="occupations">
-                    Web Developer💻 | Writer 📝 | Gamer 🎮
+                    Web Developer 💻 | Writer 📝 | Gamer 🎮
                   </p>
                   <p>
                     A platform to showcase my web development journey and share
