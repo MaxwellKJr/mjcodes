@@ -69,14 +69,6 @@ const Project = () => {
     },
   ]
 
-  // const imageLinks = [
-  //   "https://www.udrop.com/file/4Yd9/flossysclothing.png",
-  //   "https://www.udrop.com/file/4Yda/toxicart.png",
-  //   "https://www.udrop.com/file/4Ydb/slt.png",
-  //   "https://www.udrop.com/file/4Ydc/speedlight.png",
-  //   "https://www.udrop.com/file/4Ydd/crimsons.png",
-  // ]
-
   return (
     <div className="projects">
       {state.map(project => {
