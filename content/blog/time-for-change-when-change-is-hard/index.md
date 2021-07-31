@@ -19,7 +19,7 @@ Not knowing what it takes to be a blogger gave me time to read a number of blogs
 
 #### Bugs! And a lot of them 🤦‍♂️
 
-The other main reason why I was not able to write on/ my blog was bugs. The technologies I used to build this site are <a href=”https://gatsbjs.org” target=”_blank”>GatsbyJS<a>, which is a react framework, <a href=”https://graphql.org” target=”_blank”>GraphQL<a>, <a href=”https://netlify.com” target=”_blank”>Netlify<a> to host the front-end part of this website, <a href=”https://netlifycms.org” target=”_blank”>NetlifyCMS<a> to store and manage my posts, I mean it’s 2021 and not every website is built on WordPress. 😏
+The other main reason why I was not able to write on/ my blog was bugs. The technologies I used to build this site are <a href=”https://gatsbjs.org” target=”_blank”>GatsbyJS</a>, which is a react framework, <a href=”https://graphql.org” target=”_blank”>GraphQL</a>, <a href=”https://netlify.com” target=”_blank”>Netlify</a> to host the front-end part of this website, <a href=”https://netlifycms.org” target=”_blank”>NetlifyCMS</a> to store and manage my posts, I mean it’s 2021 and not every website is built on WordPress. 😏
 
 Anyway, the problem I had was that I was not able to keep my old posts when I decided to make updates to the entire website, and sadly, I came across this problem when I finally released the website and was ready to start writing.
 
@@ -28,8 +28,6 @@ Though I still went ahead and officially opened up the website, I was certain th
 > **LESSON**: Always test your projects before taking them public. No matter how small the project is, I learned that the hard way.
 
 ![](test-your-code.png)
-
-
 
 #### Walk with the times. Update!
 
