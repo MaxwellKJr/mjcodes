@@ -7,7 +7,7 @@ description: Earlier this year, I made the final changes and fixes to my
   least that’s what I thought) to make it a super-active tech site once it was
   done but sadly, that was not the reality.
 ---
-**NOTE**: The next 2 or 3 posts (this one included) will be more personal and not necessarily technical because I want you know me as a person first. A person who is prone to *error* and make *stupid mistakes*, so consider these posts as life hacks. Are we clear? Okay, read along now.
+**NOTE:** The next 2 or 3 posts (this one included) will be more personal and not necessarily technical because I want you know me as a person first. A person who is prone to *error* and make *stupid mistakes*, so consider these posts as life hacks. Are we clear? Okay, read along now.
 
 #### Be careful with what you wish for 🙃
 
@@ -31,7 +31,7 @@ Though I still went ahead and officially opened up the website, I was certain th
 
 #### Walk with the times. Update!
 
-The last main reason why website looked an used was because I was not able to make a proper transition from Gatsby v2 to v3. I was lacking behind and rarely updated the technologies I was using despite being an impulsive updater 😅.
+The last main reason why my website looked unused was because I was not able to make a proper transition from Gatsby v2 to v3. I was lacking behind and rarely updated the technologies I was using despite being an impulsive updater 😅.
 
 When I finally moved to Gatsby v3, I had another issue with some plugins that were only compatible with the previous version of Gatsby (v2). I now needed to find solutions and alternatives to those plugins.
 
@@ -39,4 +39,4 @@ Whenever I faced those issues, I always closed my editor or just went to another
 
 If you are wondering on how I fixed the bugs then don’t worry because I am planning on sharing the experiences I had when creating this website starting with my inspirations, challenges, as well as in depth review of why I chose what I chose and why I did what I did.
 
-Despite having a number of challenges, with the three I have described being the dominant ones, I was able to overcome some of them, and if you are someone who is just starting out, I hope you understand that making mistakes is normal and that things sometimes will not go according to plan.
+Despite having a number of challenges, with the three I have described being the dominant ones, I was able to overcome some of them, and if you are someone who is just starting out, I hope you understand that making mistakes is normal and that things sometimes will not go according to plan just do your part and put in the effort. Eventually things will turn out alright!
