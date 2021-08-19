@@ -1,8 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../layouts/index"
-import Seo from "../components/seo"
-import Posts from "../components/posts"
+import Seo from "../components/Seo"
+import Posts from "../components/Posts"
 
 const Blog = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title

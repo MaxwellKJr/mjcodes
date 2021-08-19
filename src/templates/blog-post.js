@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Image from "gatsby-image"
 import Layout from "../layouts/index"
-import Seo from "../components/seo"
+import Seo from "../components/Seo"
 import "./blog-post.css"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {

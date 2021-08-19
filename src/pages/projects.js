@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../layouts/index"
-import Seo from "../components/seo"
+import Seo from "../components/Seo"
 
-import Project from "../components/project"
+import Project from "../components/Project"
 import "./css/projects.css"
 
 const Projects = ({ data, location }) => {

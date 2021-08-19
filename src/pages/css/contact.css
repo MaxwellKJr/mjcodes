@@ -8,7 +8,7 @@
 
 #contact form input {
   color: var(--primary-color);
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0 0;
   border-bottom: 1px solid var(--primary-light);
   overflow: hidden;
   padding: 0 0 0 0.5rem;

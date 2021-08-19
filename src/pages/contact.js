@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../layouts/index"
-import Seo from "../components/seo"
+import Seo from "../components/Seo"
 import "./css/contact.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {

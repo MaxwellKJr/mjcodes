@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../layouts/index"
-import Seo from "../components/seo"
+import Seo from "../components/Seo"
 import "./css/about.css"
 
 const About = ({ data, location }) => {

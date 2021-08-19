@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import "materialize-css/dist/css/materialize.min.css"
 import Layout from "../layouts/index"
-import Seo from "../components/seo"
+import Seo from "../components/Seo"
 import "./css/index.css"
 
 const BlogIndex = ({ data, location }) => {

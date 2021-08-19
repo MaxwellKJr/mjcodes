@@ -39,6 +39,7 @@ const Posts = () => {
   `)
 
   const posts = data.allMarkdownRemark.edges
+
   return (
     <div id="posts">
       <h3 className="center">Posts</h3>
