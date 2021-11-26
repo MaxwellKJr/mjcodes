@@ -1,5 +1,5 @@
 ---
-title: Time For Change, When Change Is Hard
+title: When Change is Hard
 featuredImage: time-for-change.jpg
 date: 2021-07-31T13:52:48.488Z
 description: Earlier this year, I made the final changes and fixes to my
