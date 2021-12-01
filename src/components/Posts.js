@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
-// import Img from "gatsby-image"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { motion } from "framer-motion"
 import "./css/posts.css"
 
 const Posts = () => {
@@ -41,7 +41,6 @@ const Posts = () => {
   `)
 
   const posts = data.allMarkdownRemark.edges
-  // const image = posts.node.frontmatter.featuredImage
 
   return (
     <div id="posts">
@@ -50,15 +49,16 @@ const Posts = () => {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div className="post" key={node.fields.slug}>
+            <motion.div
+              whileHover={{
+                scale: 1.04,
+                rotate: -2,
+                transition: { duration: 0.1 },
+              }}
+              className="post"
+              key={node.fields.slug}
+            >
               <Link to={node.fields.slug}>
-                {/* <Img
-                  src={node.frontmatter.featuredImage}
-                  alt={title}
-                  sizes={node.frontmatter.featuredImage}
-                  className="post-img responsive-img"
-                  title={title}
-                /> */}
                 <GatsbyImage
                   image={getImage(node.frontmatter.featuredImage)}
                   alt={node.frontmatter.title}
@@ -85,7 +85,7 @@ const Posts = () => {
                 <br />
                 <Link to={node.fields.slug}>Read More</Link>
               </div>
-            </div>
+            </motion.div>
           )
         })}
       </div>
