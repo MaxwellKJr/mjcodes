@@ -23,14 +23,7 @@ const Posts = () => {
               date(formatString: "MMMM DD, YYYY")
               title
               description
-              featuredImage {
-                publicURL
-                childImageSharp {
-                  fluid(maxWidth: 3000, maxHeight: 1800) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
+              featuredImage
             }
           }
         }
@@ -52,7 +45,7 @@ const Posts = () => {
                 <Img
                   src={node.frontmatter.featuredImage}
                   alt={title}
-                  sizes={node.frontmatter.featuredImage.childImageSharp.fluid}
+                  sizes={node.frontmatter.featuredImage}
                   className="post-img responsive-img"
                   title={title}
                 />

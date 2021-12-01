@@ -12,20 +12,8 @@ module.exports = {
     },
   },
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -50,8 +38,21 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/assets`,
+        name: `assets`,
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -71,7 +72,6 @@ module.exports = {
         icon: `content/assets/favi.png`,
       },
     },
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-layout`,
       options: {

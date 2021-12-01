@@ -22,7 +22,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           <Image
             src={post.frontmatter.featuredImage.publicURL}
             alt={post.frontmatter.title}
-            fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
+            // fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
             title={post.frontmatter.title}
           />
           <header>
@@ -80,14 +80,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
-        featuredImage {
-          publicURL
-          childImageSharp {
-            fluid(maxWidth: 980) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        featuredImage
       }
     }
   }
