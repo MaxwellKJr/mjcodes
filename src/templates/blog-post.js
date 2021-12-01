@@ -1,12 +1,13 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Image from "gatsby-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Layout from "../layouts/index"
 import Seo from "../components/Seo"
 import "./blog-post.css"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
+  const image = getImage(post.frontmatter.featuredImage)
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
 
@@ -19,12 +20,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       />
       <div className="post-wrapper">
         <article>
-          <Image
-            src={post.frontmatter.featuredImage.publicURL}
-            alt={post.frontmatter.title}
-            // fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
-            title={post.frontmatter.title}
-          />
+          <GatsbyImage image={image} alt={post.frontmatter.title} />
           <header>
             <h3>{post.frontmatter.title}</h3>
             <p>{post.frontmatter.date}</p>
@@ -80,7 +76,11 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
-        featuredImage
+        featuredImage {
+          childImageSharp {
+            gatsbyImageData(placeholder: BLURRED)
+          }
+        }
       }
     }
   }

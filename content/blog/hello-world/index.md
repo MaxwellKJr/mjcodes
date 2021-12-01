@@ -6,7 +6,8 @@ description: This is a story of how video games led me to the path of writing
   code, made me make the right choices, and showed me the greatness and beauty
   of programming.
 ---
-*"After the end of World War 2, the world was split into two. East and West. This marked the beginning of era called the Cold War."* - Naked Snake (Voiced by David Hayter) in Metal Gear Solid 3: Snake Eater.
+
+_"After the end of World War 2, the world was split into two. East and West. This marked the beginning of era called the Cold War."_ - Naked Snake (Voiced by David Hayter) in Metal Gear Solid 3: Snake Eater.
 
 That's the opening line to one of my favorite video games of all time, Metal Gear Solid 3. So where's the connection with coding? Well I am just trying to let you know that my love for video games led me to that path of writing code.
 
@@ -24,7 +25,7 @@ I still wanted to make video games and I was very determined on that. (I was so 
 
 #### Programming For Dummies & C/C++
 
-After enough reading and research of what I was putting myself into, I got hold of the book <a href="https://www.dummies.com/programming/beginning-programming-for-dummies-4th-edition/" target="_blank">*Beginning Programming For Dummies: All-In-One Desk Reference For Dummies*</a> by Wallace Wang and this might sound a bit cliche but **it changed my life**.
+After enough reading and research of what I was putting myself into, I got hold of the book <a href="https://www.dummies.com/programming/beginning-programming-for-dummies-4th-edition/" target="_blank">_Beginning Programming For Dummies: All-In-One Desk Reference For Dummies_</a> by Wallace Wang and this might sound a bit cliche but **it changed my life**.
 
 ##### What I learned - In Summary
 

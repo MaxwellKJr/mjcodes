@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import "./css/posts.css"
 
 const Posts = () => {
@@ -23,7 +24,15 @@ const Posts = () => {
               date(formatString: "MMMM DD, YYYY")
               title
               description
-              featuredImage
+              featuredImage {
+                childImageSharp {
+                  gatsbyImageData(
+                    aspectRatio: 1.5
+                    placeholder: BLURRED
+                    formats: [AUTO, WEBP, AVIF]
+                  )
+                }
+              }
             }
           }
         }
@@ -32,6 +41,7 @@ const Posts = () => {
   `)
 
   const posts = data.allMarkdownRemark.edges
+  // const image = posts.node.frontmatter.featuredImage
 
   return (
     <div id="posts">
@@ -42,12 +52,16 @@ const Posts = () => {
           return (
             <div className="post" key={node.fields.slug}>
               <Link to={node.fields.slug}>
-                <Img
+                {/* <Img
                   src={node.frontmatter.featuredImage}
                   alt={title}
                   sizes={node.frontmatter.featuredImage}
                   className="post-img responsive-img"
                   title={title}
+                /> */}
+                <GatsbyImage
+                  image={getImage(node.frontmatter.featuredImage)}
+                  alt={node.frontmatter.title}
                 />
               </Link>
               <div className="post-details">
