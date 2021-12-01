@@ -56,7 +56,7 @@ const Contact = ({ data, location }) => {
                   <ul className="social-links hide-on-large-only">
                     <li>
                       <a
-                        href="https://web.facebook.com/maxwelljr.kapezi/"
+                        href="https://web.facebook.com/maxwellkapezijr/"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Facebook"
@@ -96,7 +96,7 @@ const Contact = ({ data, location }) => {
                     </li>
                     <li>
                       <a
-                        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BZtlTnqqYSwWD90TH%2B2IOEQ%3D%3D"
+                        href="https://www.linkedin.com/in/maxwellkjr"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="LinkedIn"

@@ -115,7 +115,7 @@ const Header = () => {
               href="https://www.linkedin.com/in/maxwellkjr/"
               target="_blank"
               rel="noopener noreferrer"
-              title="aedIn"
+              title="LinkedIn"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
