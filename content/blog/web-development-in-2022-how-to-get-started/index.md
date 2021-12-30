@@ -1,6 +1,6 @@
 ---
 title: Web Development in 2022 (How to Get Started)
-featuredImage: html-css-js.png
+featuredImage: html-css-javascript.jpg
 date: 2021-12-30T07:28:36.857Z
 description: I have learned a lot throughout my coding journey that started in
   2017 and there are things I wish I could have done differently. So, here is a
@@ -46,7 +46,7 @@ Since this post is all about the roadmap, I will stop here.
 
 #### Cascading Style Sheets (CSS)
 
-![](css.jpg)
+![](css2.png)
 
 CSS is where the learning actually begins. And it is where you definitely have to apply my Tip #2 - Taking your time. CSS is used to style the HTML elements and make it look appealing. It brings in the sense of uniqueness on the World Wide Web. It manipulates the HTML elements and how they should look.
 
@@ -58,7 +58,7 @@ After learning HTML and CSS, you are good to go to start making static webpages/
 
 #### JavaScript
 
-![](https://i0.wp.com/seanmacentee.com/wp-content/uploads/2019/06/jslogo.png?ssl=1)
+![](js.png)
 
 JavaScript is multi-paradigm programming language for the web and makes up the big 3 of frontend trio. Multi-paradigm simply means there are different ways you can write your code to achieve a task.
 
