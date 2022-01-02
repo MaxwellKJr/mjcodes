@@ -6,7 +6,7 @@ description: I have learned a lot throughout my coding journey that started in
   2017 and there are things I wish I could have done differently. So, here is a
   quick guide on how to get started with Web Development in 2022.
 ---
-The world of Computer Science let alone programming can feel like a rabbit hole when you do not know much and this is what usually turns people off before they even begin. Computer Science is more complicated and complex compared to other fields with a learning curve that's steeper than learning how to get good at Dark Souls.
+The world of Computer Science let alone programming can feel like a rabbit hole when you do not know much and this is what usually turns people off before they even begin. Computer Science is more complicated and complex compared to other fields, and with a learning curve that's steeper than learning how to get good at Dark Souls.
 
 Anyway, when I started with web development I jumped from one thing to the next without even understanding what I was doing. Half of 2018 was wasted on how to make a simple navbar (Navigation Menu) and the other half was wasted on how to make that navbar responsive. As much as I still figured it out, I wasted a lot of time. Like **A LOT!**
 
@@ -32,7 +32,7 @@ One of the ways I understood CSS Grid and Flexbox was by building [\#BecomingCri
 
 Now with that out of the way, lets get started.
 
-#### HTML (HyperText Markup Language)
+#### HyperText Markup Language (HTML)
 
 ![](html.png)
 
