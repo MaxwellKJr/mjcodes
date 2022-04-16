@@ -44,11 +44,11 @@ const About = ({ data, location }) => {
                     </a>{" "}
                     and{" "}
                     <a
-                      href="https://djangoproject.com"
+                      href="https://laravel.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Django
+                      Laravel
                     </a>{" "}
                     frameworks. I am also a 3rd year Bachelor of Education (BEd)
                     in Computer Science student at the{" "}

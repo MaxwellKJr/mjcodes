@@ -11,16 +11,13 @@ import {
   faHtml5,
   faJava,
   faJs,
+  faLaravel,
   faPhp,
   faPython,
   faReact,
   faWordpress,
 } from "@fortawesome/free-brands-svg-icons"
-import {
-  faDatabase,
-  faPlusCircle,
-  faShareAltSquare,
-} from "@fortawesome/free-solid-svg-icons"
+import { faDatabase, faPlusCircle } from "@fortawesome/free-solid-svg-icons"
 
 const Skills = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -84,10 +81,10 @@ const Skills = ({ data, location }) => {
                     <div className="col s6">
                       <div className="card-dark">
                         <FontAwesomeIcon
-                          icon={faPython}
+                          icon={faLaravel}
                           className="fa-2x skill-icon"
                         />
-                        <span className="skill">Python</span>
+                        <span className="skill">Laravel</span>
                       </div>
                     </div>
                     <div className="col s6">
@@ -102,10 +99,10 @@ const Skills = ({ data, location }) => {
                     <div className="col s6">
                       <div className="card-dark">
                         <FontAwesomeIcon
-                          icon={faShareAltSquare}
+                          icon={faPhp}
                           className="fa-2x skill-icon"
                         />
-                        <span className="skill">GraphQL</span>
+                        <span className="skill">PHP</span>
                       </div>
                     </div>
                     <div className="col s6">
@@ -132,7 +129,7 @@ const Skills = ({ data, location }) => {
                     <div className="col s6">
                       <div className="card-dark">
                         <FontAwesomeIcon
-                          icon={faPhp}
+                          icon={faPython}
                           className="fa-2x skill-icon"
                         />
                         <span className="skill">PHP</span>
