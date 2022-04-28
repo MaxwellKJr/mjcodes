@@ -49,9 +49,10 @@ collections:
       - { label: "GitHub URL", name: "githubURL", widget: "string" }
       - { label: "Description", name: "projectDescription", widget: "string" }
       - {
-          - label: "Tags",
+          label: "Tags",
           name: "tags",
           widget: "list",
           allow_add: true,
           default: ["React"],
+          field: { label: Tag, name: tagName, widget: string },
         }
