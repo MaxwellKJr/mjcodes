@@ -132,7 +132,7 @@ const Skills = ({ data, location }) => {
                           icon={faPython}
                           className="fa-2x skill-icon"
                         />
-                        <span className="skill">PHP</span>
+                        <span className="skill">Python</span>
                       </div>
                     </div>
                     <div className="col s6">
