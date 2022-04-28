@@ -38,11 +38,20 @@ collections:
     media_folder: ""
     public_folder: ""
     fields:
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Project Title", name: "projectTitle", widget: "string" }
       - {
           label: "Project Image",
           name: "projectImage",
           widget: "image",
           required: true,
         }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Project URL", name: "projectURL", widget: "string" }
+      - { label: "GitHub URL", name: "githubURL", widget: "string" }
+      - { label: "Description", name: "projectDescription", widget: "string" }
+      - {
+          - label: "Tags",
+          name: "tags",
+          widget: "list",
+          allow_add: true,
+          default: ["React"],
+        }
