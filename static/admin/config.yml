@@ -26,3 +26,23 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "projects"
+    label: "Projects"
+    create: true
+    folder: "content/projects"
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    editor:
+      preview: true
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Project Image",
+          name: "projectImage",
+          widget: "image",
+          required: true,
+        }
+      - { label: "Description", name: "description", widget: "string" }
