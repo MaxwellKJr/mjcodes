@@ -28,11 +28,12 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "projects"
+    identifier_field: "name"
     label: "Projects"
     create: true
     folder: "content/projects"
-    slug: "{{projectTitle}}"
-    path: "{{projectTitle}}/index"
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
     editor:
       preview: true
     media_folder: ""
