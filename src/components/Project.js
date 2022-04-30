@@ -27,7 +27,7 @@ const Project = () => {
               projectImage {
                 childImageSharp {
                   gatsbyImageData(
-                    aspectRatio: 1.5
+                    aspectRatio: 2
                     placeholder: BLURRED
                     formats: [AUTO, WEBP, AVIF]
                   )
@@ -127,9 +127,11 @@ const Project = () => {
                   />
                 </a>
               </h5>
+
               <p className="project-desc">
                 {node.frontmatter.projectDescription}
               </p>
+
               <a
                 href={node.frontmatter.githubURL}
                 target="_blank"
@@ -145,6 +147,7 @@ const Project = () => {
                 ))}
               </ul>
             </div>
+
             <a
               href={url}
               target="_blank"
@@ -152,7 +155,7 @@ const Project = () => {
               className="img-link"
             >
               <GatsbyImage
-                src={getImage(node.frontmatter.projectImage)}
+                image={getImage(node.frontmatter.projectImage)}
                 alt={title}
                 className="project-img"
               />

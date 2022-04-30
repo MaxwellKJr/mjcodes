@@ -34,6 +34,7 @@
 
 .project-details {
   padding: 1rem;
+  width: 50%;
 }
 
 .project-details h5 {
@@ -52,7 +53,8 @@
 }
 
 .project .img-link {
-  width: 90%;
+  width: 50%;
+  max-width: 500px;
   margin: 0;
 }
 
@@ -94,6 +96,7 @@
 
   .project .project-details {
     padding-bottom: 2rem;
+    width: 100%;
   }
 
   .project .img-link {
