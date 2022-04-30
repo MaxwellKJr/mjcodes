@@ -1,5 +1,5 @@
 ---
-projectTitle: Flossy's Clothing
+projectTitle: Flossy's Clothing Site
 date: 2020-11-14T03:50:31.863Z
 projectImage: flossys1.png
 projectURL: https://flossysclothing.netlify.app
