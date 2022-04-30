@@ -39,6 +39,7 @@ collections:
     public_folder: ""
     fields:
       - { label: "Project Title", name: "projectTitle", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
       - {
           label: "Project Image",
           name: "projectImage",

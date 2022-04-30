@@ -13,7 +13,10 @@ const Posts = () => {
         }
       }
 
-      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/blog/" } }
+        sort: { fields: [frontmatter___date], order: DESC }
+      ) {
         edges {
           node {
             excerpt
@@ -52,8 +55,7 @@ const Posts = () => {
             <motion.div
               whileHover={{
                 scale: 1.04,
-                rotate: -2,
-                transition: { duration: 0.1 },
+                transition: { duration: 0.01 },
               }}
               className="post"
               key={node.fields.slug}
