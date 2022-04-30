@@ -1,5 +1,5 @@
 ---
-projectTitle: Speed Light Tech
+projectTitle: SpeedLight Tech
 date: 2020-08-10T03:45:17.957Z
 projectImage: speedlighttech.png
 projectURL: https://speedlighttech.netlify.app
