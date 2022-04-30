@@ -1,5 +1,5 @@
 ---
-projectTitle: "#BecomingCrimson"
+projectTitle: "Becoming Crimson"
 date: 2019-12-10T06:10:05.639Z
 projectImage: crimsons.png
 projectURL: https://becomingcrimson.netlify.app
