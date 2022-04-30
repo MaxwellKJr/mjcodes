@@ -31,8 +31,8 @@ collections:
     label: "Projects"
     create: true
     folder: "content/projects"
-    slug: "{{slug}}"
-    path: "{{slug}}/index"
+    slug: "{{projectTitle}}"
+    path: "{{projectTitle}}/index"
     editor:
       preview: true
     media_folder: ""
