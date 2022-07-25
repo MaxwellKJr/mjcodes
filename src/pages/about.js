@@ -50,7 +50,7 @@ const About = ({ data, location }) => {
                     >
                       Laravel
                     </a>{" "}
-                    frameworks. I am also a 3rd year Bachelor of Education (BEd)
+                    frameworks. I am also a fourth year Bachelor of Education (BEd)
                     in Computer Science student at the{" "}
                     <a
                       href="https://unima.ac.mw"
