@@ -56,5 +56,5 @@ collections:
           widget: "list",
           allow_add: true,
           default: ["React"],
-          field: { label: Tag, name: tagName, widget: string },
+          field: { label: Tag, name: "tagName", widget: "string" },
         }
