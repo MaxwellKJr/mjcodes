@@ -50,8 +50,8 @@ const About = ({ data, location }) => {
                     >
                       Laravel
                     </a>{" "}
-                    frameworks. I am also a fourth year Bachelor of Education (BEd)
-                    in Computer Science student at the{" "}
+                    frameworks. I am also a fourth year Bachelor of Education
+                    (BEd) in Computer Science student at the{" "}
                     <a
                       href="https://unima.ac.mw"
                       target="_blank"
@@ -75,6 +75,15 @@ const About = ({ data, location }) => {
                   <Link to="/skills" className="btn-primary">
                     My Skills →
                   </Link>
+                  <a
+                    href="https://maxwellkapezi-resume.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary"
+                    style={{ marginLeft: 16 }}
+                  >
+                    My Resume
+                  </a>
                 </div>
               </div>
             </div>

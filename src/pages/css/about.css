@@ -45,6 +45,6 @@
 
 @media (max-width: 600px) {
   .showcase-about .wrapper {
-    width: 90% !important;
+    width: calc(100% - 0.5rem) !important;
   }
 }

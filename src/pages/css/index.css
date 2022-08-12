@@ -204,9 +204,22 @@ p {
 }
 
 #showcase .occupations {
-  color: #b9b9b9;
   font-size: 1rem;
   margin: 1.4rem 0;
+}
+
+#showcase .occupations ul {
+  display: flex;
+}
+
+#showcase .occupations ul li a {
+  color: #b9b9b9;
+  padding: 0.2rem 1rem 0 0;
+}
+
+#showcase .occupations ul li a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 #showcase .btn-primary {

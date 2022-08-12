@@ -39,7 +39,7 @@ const BlogIndex = ({ data, location }) => {
                   >
                     The Struggling Programmer
                   </motion.h1>
-                  <motion.p
+                  <motion.div
                     initial="hidden"
                     animate="visible"
                     variants={{
@@ -59,8 +59,38 @@ const BlogIndex = ({ data, location }) => {
                     }}
                     className="occupations"
                   >
-                    Web Developer 💻 | Writer 📝 | Gamer 🎮
-                  </motion.p>
+                    <ul>
+                      <li>
+                        <a
+                          href="http://maxwellkapezi-resume.netlify.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          title="See my resume"
+                        >
+                          Web Developer 💻{" "}
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="http://maxwellkapezi.vercel.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          title="The creative side of me"
+                        >
+                          Writer 📝
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="http://instragram.com/_maxwellkjr/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Graphic Designer 🖌️
+                        </a>
+                      </li>
+                    </ul>
+                  </motion.div>
                   <motion.p
                     initial="hidden"
                     animate="visible"
@@ -107,8 +137,8 @@ const BlogIndex = ({ data, location }) => {
                       View Projects
                     </Link>
 
-                    <Link to="/contact" className="btn-primary">
-                      Contact Me
+                    <Link to="/blog" className="btn-primary">
+                      Read Blog
                     </Link>
                   </motion.div>
                 </div>
