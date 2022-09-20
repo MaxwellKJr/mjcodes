@@ -136,8 +136,16 @@
   .main-nav .nav-links a .show-on-med {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    /* transform: translateX(-50%); */
+    transform: translate(-59%, -50%);
+    width: 100%;
+    height: 90%;
     font-size: 1rem;
+  }
+
+  .main-nav .nav-links a span {
+    display: none;
   }
 
   .main-nav .social-links {

@@ -20,6 +20,17 @@
   border-radius: 50%;
 }
 
+#about .ctas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: left;
+}
+
+#about .ctas .btn-primary {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
 @media (max-width: 995px) {
   #about,
   #skills,
@@ -33,6 +44,7 @@
   }
 
   .image img {
+    border: 2px solid var(--primary-color);
     width: 60%;
   }
 }
@@ -46,5 +58,9 @@
 @media (max-width: 600px) {
   .showcase-about .wrapper {
     width: calc(100% - 0.5rem) !important;
+  }
+
+  #about .ctas {
+    /* width: 100%; */
   }
 }

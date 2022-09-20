@@ -8,7 +8,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   width: 75%;
-  max-width: 1280px;
+  max-width: 990px;
   margin: auto;
 }
 

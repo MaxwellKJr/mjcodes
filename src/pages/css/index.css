@@ -156,9 +156,10 @@ p {
 #about .wrapper,
 #skills .wrapper,
 #contact .wrapper,
-#projects .wrapper {
+#projects .container {
   width: 75%;
   margin: auto;
+  max-width: 990px;
   animation: fadeIn 1000ms ease-in-out forwards;
 }
 
@@ -210,11 +211,13 @@ p {
 
 #showcase .occupations ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #showcase .occupations ul li a {
+  display: inline-block;
   color: #b9b9b9;
-  padding: 0.2rem 1rem 0 0;
+  padding: 0.5rem 1rem 0 0;
 }
 
 #showcase .occupations ul li a:hover {

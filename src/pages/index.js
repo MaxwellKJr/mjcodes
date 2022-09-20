@@ -67,7 +67,7 @@ const BlogIndex = ({ data, location }) => {
                           rel="noopener noreferrer"
                           title="See my resume"
                         >
-                          Web Developer 💻{" "}
+                          Web Developer💻
                         </a>
                       </li>
                       <li>
@@ -77,7 +77,7 @@ const BlogIndex = ({ data, location }) => {
                           rel="noopener noreferrer"
                           title="The creative side of me"
                         >
-                          Writer 📝
+                          Writer📝
                         </a>
                       </li>
                       <li>
@@ -86,7 +86,7 @@ const BlogIndex = ({ data, location }) => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          Graphic Designer 🖌️
+                          Graphic Designer🖌️
                         </a>
                       </li>
                     </ul>

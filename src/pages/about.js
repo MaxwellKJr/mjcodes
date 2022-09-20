@@ -72,18 +72,19 @@ const About = ({ data, location }) => {
                     Apart from coding I also enjoy writing short stories, poetry
                     &amp; video games. I mean why not?
                   </p>
-                  <Link to="/skills" className="btn-primary">
-                    My Skills →
-                  </Link>
-                  <a
-                    href="https://maxwellkapezi-resume.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-primary"
-                    style={{ marginLeft: 16 }}
-                  >
-                    My Resume
-                  </a>
+                  <div className="ctas">
+                    <Link to="/skills" className="btn-primary">
+                      My Skills →
+                    </Link>
+                    <a
+                      href="https://maxwellkapezi-resume.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-primary btn-secondary"
+                    >
+                      My Resume
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
