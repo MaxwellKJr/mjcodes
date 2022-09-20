@@ -1,44 +1,77 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+    <img alt="Gatsby" src="https://mjcodes.netlify.app/favicon-32x32.png?v=a6540c53061925f5057f8cf2df7be30c" width="32" />
   </a>
 </p>
+<h2 align="center">MJ Codes Presents:</h2>
 <h1 align="center">
-  Gatsby's blog starter
+   <strong>Programmer's Starter Blog</strong>
 </h1>
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+When I first started off as a programmer, I didn't know that I would one day need to have a portfolio to showcase my work. I have made three iterations of the same website (this being the third) of which the first two sucked. And then I discovered React.js and shortly after, I discovered Gatsby.js and thus, the rest is history.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+## ⚠️ Disclaimer
 
-## 🚀 Quick start
+This project is not for beginners in Web Development.
 
-1.  **Create a Gatsby site.**
+Prerequisite knowledge:
 
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
+- HTML, CSS, JavaScript
+- Materialize CSS (Not really needed)
+- React.js (Specifically Gatsby.js)
+- GraphQL
+- Yaml
+
+## 🚀 Getting Started
+
+1.  **Create a repo of this site.**
+
+    You can do this either by cloning the repo or downloading the zip folder
 
     ```shell
     # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
+    git clone https://github.com/MaxwellKJr/mjcodes.git
     ```
 
-1.  **Start developing.**
+2.  **Install Dependecies.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into your new site’s directory and run npm install or yarn install
 
     ```shell
-    cd my-blog-starter/
-    gatsby develop
+    cd mjcodes/
+
+    # npm
+    $ npm install
+
+    # yarn
+    $ yarn install
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Start the development server.**
 
-    Your site is now running at `http://localhost:8000`!
+    ```shell
+    $ gatsby develop
+
+    # Output
+    You can now view programmers-starter-blog in the browser.
+
+    http://localhost:8000/
+
+    View GraphiQL, an in-browser IDE, to explore your site's data and schema
+
+    http://localhost:8000/___graphql
+
+    Note that the development build is not optimized.
+    To create a production build, use gatsby build
+    ```
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+4.  **Open the source code and start editing!**
+
+    Open the folder using your favorite text editor (for web development) and start coding. Start by editing the `src/pages/index.js` file,save the changes and the browser will update in real time!
+
+    _**NOTE: Keep the server running.**_
 
 ## 🧐 What's inside?
 
@@ -92,8 +125,8 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/programmers-starter-blog)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-blog)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/programmers-starter-blog)
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+_Have another more specific idea? You may want to check out our vibrant collection of [Gatsby official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
