@@ -1,3 +1,5 @@
+# ⚠️ NOTE: This Repo is DEPRACATED for the latest version of this site please visit: [![MaxwellKJr/strugglingprogrammer](https://github.com/MaxwellKJr/strugglingprogrammer) ⚠️
+
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://mjcodes.netlify.app/favicon-32x32.png?v=a6540c53061925f5057f8cf2df7be30c" width="32" />
